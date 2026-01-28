@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: white;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: black;
+}
+
+.name {
+  color: purple;
+}
+
+nav a {
+  color: azure;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #00c6ff;
+}
+
+.photo {
+  height: 90vh;
+  background: linear-gradient(to right, rgb(94, 0, 128), purple);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  text-align: center;
+}
+
+.photo span {
+  color: pink;
+}
+
+.photo button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  border: none;
+  background: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.photo button:hover {
+  background: white;
+  color: black;
+}
+
+.about {
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.skills {
+  text-align: center;
+}
+
+.skill-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.skill-box span {
+  background: rgb(142, 23, 142);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.projects {
+  text-align: center;
+}
+
+.project-a {
+  background: whitesmoke;
+  margin: 15px auto;
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  display: grid;
+}
+
+.project-a:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+section {
+  padding: 60px 10%;
+  text-align: center;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.photo-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prof-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.cv-download {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.btn-cv {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 30px;
+  transition: 0.3s ease;
+}
+
+.btn-cv:hover {
+  background-color: plum;
+  transform: scale(1.05);
+}
